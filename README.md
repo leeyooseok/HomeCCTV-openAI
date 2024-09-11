@@ -1,7 +1,12 @@
-이 프로젝트는 OpenAI API를 통해 명령을 받아 처리하고, 이를 통해 카메라의 움직임을 제어하는 기능을 구현했습니다.
-시스템은 Python에서 OpenAI GPT-4 모델을 사용해 명령어를 해석하고, 해당 명령어에 따라 기계 동작을 제어하는 스크립트를 실행합니다.
-그 후, UDP 통신을 통해 명령을 Arduino로 전송하여 모터를 제어합니다.
+이 프로젝트는 안드로이드 스튜디오에서 보내는 음성을 OpenAI API를 통해 명령을 받아 처리하고, 이를 통해 카메라의 움직임을 제어하는 기능을 구현했습니다.<br>
+시스템은 Python에서 OpenAI GPT-4 모델을 사용해 명령어를 해석하고, 해당 명령어에 따라 기계 동작을 제어하는 스크립트를 실행합니다.<br>
+그 후, UDP 통신을 통해 명령을 Arduino로 전송하여 카메라를 움직이는 모터를 제어합니다.<br>
+<br>
 machine_script.py을 먼저 실행 하여 OpenAI를 연동하고 myOpenAI_server.py를 실행해야 데이터를 수신하여 명령어로 처리가 가능합니다.
+<br>
+
+전체적인 프로젝트는 아래 링크에서 확인해 주시면 됩니다.
+## [HomeCCTV Project-all](https://github.com/leeyooseok/HomeCCTVApp-project.git)
  
 -------------------
 ## machine_script.py
